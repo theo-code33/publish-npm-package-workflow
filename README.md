@@ -9,7 +9,7 @@ This workflow will publish a npm package when a version tag is pushed.
 3. Create a new release with a version tag (e.g. `v1.0.0`) with `git tag 'v1.0.0'` and push it to your repository with `git push --tags`
 4. The workflow will run and publish the package to npm
 
-:warning: The new version take the tag version so becarfule the new version tag must be higher than the last published version. Otherwise the workflow will fail. :warning:
+:warning: **The new version take the tag version so becarfule the new version tag must be higher than the last published version. Otherwise the workflow will fail.** :warning:
 
 ## Configuration
 
