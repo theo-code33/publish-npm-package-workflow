@@ -17,6 +17,8 @@ Add the following secrets to your repository's secrets:
 
 - `NPM_TOKEN`: A npm token with publish rights
 
+If you need to build your package before publishing it, you can uncomment the `build` job and add your build command.
+
 ## Used tools
 
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
